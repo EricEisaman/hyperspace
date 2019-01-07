@@ -135,10 +135,10 @@ window.config = {
  },
  readouts:{
    itemDefs:[
-     {type:'scoreboard',scale:'16 10 0.1',color:'#222622',
+     {type:'scoreboard',scale:'16 10 0.1',color:'#a80003',
       positions:['-79 48 -30','50 48 -30'],
       rotations:['0 30 0','0 30 0'],
-      textAttributes:{value:'Welcome to\nCastle Bridge',color:'orange',scale:'9 9 1',align:'center',shader:'msdf',
+      textAttributes:{value:'Welcome to\nCastle Bridge',color:'white',scale:'9 9 1',align:'center',shader:'msdf',
                       position:'0 -1.5 0',
                       font:'https://raw.githubusercontent.com/etiennepinchon/aframe-fonts/master/fonts/newrocker/NewRocker-Regular.json'}
      },

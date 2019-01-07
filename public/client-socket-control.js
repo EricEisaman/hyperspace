@@ -1,4 +1,4 @@
-window.socket = window.io({transports: ['websocket']});
+window.socket = window.io();
 window.socket.on('connect', ()=>{
   console.log(`My socket.id is ${window.socket.id}`);
   console.log('Client.js can initialize my playerData now.');
