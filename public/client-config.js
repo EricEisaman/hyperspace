@@ -118,7 +118,9 @@ window.config = {
    // https://github.com/aframevr/aframe/blob/master/docs/components/geometry.md
    // These objects require a unique name.
    objects:[
-      
+      {name:'Blue Sphere', geometry:'primitive: sphere; radius: 2',position:'50 75 -40',color:'#00f'},
+      {name:'Red Sphere', geometry:'primitive: sphere; radius: 2',position:'60 75 -40',color:'#f00'},
+      {name:'Green Sphere', geometry:'primitive: sphere; radius: 2',position:'70 75 -40',color:'#0f0'}
     ]
  },
  collectibles:{
