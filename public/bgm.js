@@ -40,7 +40,6 @@
 
 if(window.config.bgm.playAll){
    bgm.addEventListener('ended',e=>{
-    console.log('bgm song ended');
     playNextSong();
    });
 }
